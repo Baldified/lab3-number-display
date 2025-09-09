@@ -49,3 +49,5 @@ ANSWERS
 17.  
 
 18. The 3 digit value is returned normally.
+
+19. No, but there will be one if there was a message in between the quotes.
