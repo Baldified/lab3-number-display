@@ -30,7 +30,22 @@ ANSWERS
 
 6. I should call the method getValue or check the inspector on the minutes object to see if it has rolled over. If it has rolled over, then I should increment once on hours.
 
-8. Yes, both calls to setValue resulted in a change to the stored value. When setting a value lower than the limit, it will keep the chosen value. Setting a value higher than the limit will cause it to substract the given value by the value of the limit as many times as it needs, but it stops substracting if the next substraction goes below 0.
+8. Yes, both calls to setValue resulted in a change to the stored value. When setting a value lower than the limit, it will keep the chosen value. Setting a value higher than the limit will cause it to roll over the limit and reset the value back to 0 discarding the rest of the set value over the limit.
 
 13. 0
 
+14. All the values over the limit are now valid.
+
+15. ! false
+    (34 != 33) && ! false 
+
+16. if((a > 1) && (b > 1)) {
+    value = true;
+    }
+   else {
+    value = true;
+    }
+
+17.  
+
+18. The 3 digit value is returned normally.
